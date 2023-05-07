@@ -19,11 +19,24 @@ h1 {
     margin: 10px;
 }
 
+h2 {
+    margin-bottom: 0;
+    /* border: solid red; */
+}
+
+h3 {
+    margin-bottom: 0;
+    align-self: flex-end;
+    padding-right: 30px;
+    font-style: italic;
+}
+
 .box {
     background-color: steelblue;
     color: white;
     text-align: center;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 400px;

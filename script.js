@@ -15,3 +15,14 @@ function checkBoxes() {
         }
     })
 }
+
+const quoteText = document.getElementById("quote-text");
+const quoteAuthor = document.getElementById("quote-author");
+
+fetch ("https://api.quotable.io/random?tags=famous-quotes")
+    .then(response => response.json())
+    .then( data => {
+        console.log (data)
+})
+    
+    
