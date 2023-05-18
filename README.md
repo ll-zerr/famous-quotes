@@ -8,13 +8,13 @@ The goal of the initial project was to have boxes slide in from opposite sides o
 
 - Implement a fetch API to pull a specific type and quantity of quotes.
 - Restrict the quotes to a limited number of characters.
-- Utilize a for Each loop to run over the quotes array.
+- Utilize the forEach() method to loop over the quotes array.
 - Target the content and author of each quote.
 - Update the text of each box to reflect the quote and author. 
 
 ### View My Project: []()
 
-![Screenshot]()
+![Screenshot](img/smartmockups_famous-quotes.jpg)
 
 ## Features
 
