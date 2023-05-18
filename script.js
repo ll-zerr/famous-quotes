@@ -26,7 +26,7 @@ function randomQuote() {
             return response.json();
         })
     .then( data => {
-        console.log (data)
+        // console.log (data)
         data.forEach((item, index) => {
             const quoteText = document.querySelector(`#quote${index + 1} .quote-text`);
             const quoteAuthor = document.querySelector(`#quote${index + 1} .quote-author`);

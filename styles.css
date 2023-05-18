@@ -5,7 +5,8 @@
 }
 
 body {
-    background-color: #efedd6;
+    background: url("https://images.unsplash.com/photo-1681138568071-d5ad7f3fd4e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60") center no-repeat #37aace;
+    background-size: cover;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -22,11 +23,11 @@ body {
 
 h1 {
     margin: 10px;
+    color: #efedd6;
 }
 
 h2 {
     margin-bottom: 0;
-    /* border: solid red; */
 }
 
 h3 {
@@ -37,20 +38,21 @@ h3 {
 }
 
 .box {
-    background-color: steelblue;
-    color: white;
+    background-color: rgb(227, 238, 247);
+    color: rgb(100, 96, 96);
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 400px;
-    height: 200px;
+    max-width: 400px;
+    min-height: 200px;
     margin: 10px;
     border-radius: 10px;
     box-shadow: 2px 4px 5px rgb(0, 0, 0, 0.3);
     transform: translateX(400%);
     transition: transform 0.4s ease;
+    padding: 20px;
 }
 
 .box:nth-of-type(even) {
@@ -60,3 +62,10 @@ h3 {
 .box.show {
     transform: translateX(0);
 }
+
+.inner-outline {
+    outline: 2px solid rgb(55, 140, 168);
+    outline-offset: -10px;
+}
+
+  
