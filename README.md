@@ -4,7 +4,7 @@ This is a modification to the [Scroll Animation project (Day 6) in the Udemy cou
 
 ## Project Details
 
-The goal of the initial project was to have boxes slide in from opposite sides of the browser when the user scrolls up or down the page. I wanted to utilize this base code and build upon it in order to present the user with a visually appealling list of famous quotes. To accomplish this, I had to:
+The goal of the initial project was to have boxes slide in from opposite sides of the browser when the user scrolls up or down the page. I wanted to utilize this base code and build upon it in order to present the user with a visually appealing list of famous quotes. To accomplish this, I had to:
 
 - Implement a fetch API to pull a specific type and quantity of quotes.
 - Restrict the quotes to a limited number of characters.
@@ -12,7 +12,7 @@ The goal of the initial project was to have boxes slide in from opposite sides o
 - Target the content and author of each quote.
 - Update the text of each box to reflect the quote and author. 
 
-### View My Project: []()
+### View My Project: [https://ll-zerr.github.io/famous-quotes/](https://ll-zerr.github.io/famous-quotes/)
 
 ![Screenshot](img/smartmockups_famous-quotes.jpg)
 
