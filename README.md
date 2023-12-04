@@ -1,6 +1,6 @@
 # Famous Quotes
 
-This is a modification to the [Scroll Animation project (Day 6) in the Udemy course 50 projects in 50 Days](https://www.udemy.com/course/50-projects-50-days/?src=sac&kw=50+projects+50+days).
+This is a modification to the Scroll Animation project (Day 6) in the [Udemy course 50 projects in 50 Days](https://www.udemy.com/course/50-projects-50-days/?src=sac&kw=50+projects+50+days).
 
 ## Project Details
 
